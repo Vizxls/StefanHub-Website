@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Copy, Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 
 const scriptCode = `loadstring(game:HttpGet("https://raw.githubusercontent.com/Vizxls/JonpoorHub/refs/heads/main/Loader.lua"))()`;
 
