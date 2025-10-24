@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { createPageUrl } from "@/utils";
+import { createPageUrl } from "../utils";
 import { Home, Gamepad2, Key, Github } from "lucide-react";
 
 export default function Layout({ children, currentPageName }) {
