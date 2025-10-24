@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Copy, Check } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../components/ui/button";
 
 export default function GamesPage() {
   const [copiedIndex, setCopiedIndex] = useState(null);
