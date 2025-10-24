@@ -70,8 +70,7 @@ export default function Layout({ children }) {
         </div>
       </nav>
 
-      {/* Main Content */}
-      <main className="relative z-10 mt-20">{children}</main>
-    </div>
-  );
-}
+ <main className="relative z-10 mt-32 px-4 md:px-8">
+  {children}
+</main>
+
